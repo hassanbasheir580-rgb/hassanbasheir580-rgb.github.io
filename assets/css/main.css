@@ -3946,3 +3946,40 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+/* Awards */
+
+.awards-grid {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.award-card {
+    flex: 1;
+    min-width: 320px;
+    background: #2e3450;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: 0.3s;
+}
+
+.award-card:hover {
+    transform: translateY(-6px);
+    border-color: #9bf1ff;
+}
+
+.award-card .icon {
+    font-size: 2rem;
+    color: #9bf1ff;
+    margin-bottom: 1rem;
+}
+
+.award-card h3 {
+    margin-bottom: 0.8rem;
+}
+
+.award-card p {
+    margin-bottom: 1.5rem;
+}
